@@ -10,7 +10,7 @@ int main()
 	gets(cumle);
 	printf("Cumlede aramak istediginiz harfi girin:\n");
 	scanf("%c", &harf);
-	cptr=strchr(cumle, harf);
+	cptr = strchr(cumle, harf);
 	if (cptr == NULL)
 	{
 		printf("Cumlede aradiginiz harf yoktur.");
